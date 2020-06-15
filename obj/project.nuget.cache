@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "p84jktoD7xDjHdj8tujSQR+YcjWWAGaXMxVP1g+6Pj1zs3WWJuPF3QVqSn1cuilsRJejk6plFFJsHuXxhMfLoQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mrshi\\source\\repos\\CSharp Exercises\\CSharp Exercises\\CSharp Exercises.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mrshi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
