@@ -24,7 +24,7 @@ Depending on the number of names provided, display a message based on the above 
 
 namespace Cshar_Exercises
 {
-    class Exercise_1
+    class Exercise_1_Strings
     {
         static void Main(string[] args)
         {
