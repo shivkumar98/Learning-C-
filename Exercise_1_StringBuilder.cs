@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CSharp_Exercises
 {
-    //1- Write a program and ask the user to enter a 
+    //Write a program and ask the user to enter a 
     //few numbers separated by a hyphen.Work out if 
     //the numbers are consecutive.
     class Exercise_1_StringBuilder
@@ -19,7 +19,7 @@ namespace CSharp_Exercises
             StringBuilder buffer = new StringBuilder();
             List<int> numberList = new List<int>();
 
-            for (int i=0;i<input.Length-1; i++)
+            for (int i=0;i<input.Length; i++)
             {
                 if (input[i] != '-')
                 {
@@ -39,12 +39,13 @@ namespace CSharp_Exercises
                     continue;
                 }
             }
-            
-            for (int i=0;i<numberList.Count-2;i++)
+
+           
+            for (int i=0;i<numberList.Count;i++)
             {
                 if (numberList[i] < numberList[i+1])
                 {
-                    if (i==numberList.Count-1)
+                    if (i==numberList.Count-2 ||numberList.Count==2)
                     {
                         Console.WriteLine("consecutive");
                         break;
@@ -57,7 +58,6 @@ namespace CSharp_Exercises
                     break;
                 }
             }
-            Console.WriteLine("consecutive");
 
         }
 
